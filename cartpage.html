@@ -1,0 +1,144 @@
+add cart<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Tech-Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+    <header>
+        <h3 class="main-header">Tech-Shop</h3>
+        <nav class="nav-icons">
+            <a href="#" aria-label="Search" title="Search"><i class="fas fa-search"></i></a>
+            <a href="./addcart.html" aria-label="Cart" title="Cart"><i class="fas fa-shopping-cart"></i></a>
+            <a href="./registration.html" aria-label="Profile" title="Profile"><i class="fas fa-user"></i></a>
+        </nav>
+    </header>
+
+    <main class="cart-page-content">
+        <div class="cart-container">
+            <div class="cart-items-section">
+                <div class="cart-item">
+                    <img src="../Project/assets/products/boat410-1.png" alt="Boat 410" width="100" height="100">
+                    <div class="item-details">
+                        <p class="item-name">Boat 410 Ear Active Noice Cancellation Headphones</p>
+                        <p class="item-price">₹2,999 <span class="old-price">₹6,999</span></p>
+                        <div class="quantity-controls">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity-value">1</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button class="delete-item-btn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+
+                <div class="cart-item">
+                    <img src="C:\Users\Vikram\Desktop\Project\assets\products\jbl200bt-2.png" alt="jbl 200 bt" width="100" height="100">
+                    <div class="item-details">
+                        <p class="item-name">JBL 200 bt 14mm Dynamic Drivers in Ear phones</p>
+                        <p class="item-price">₹599 <span class="old-price">₹999</span></p>
+                        <div class="quantity-controls">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity-value">1</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button class="delete-item-btn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+                <div class="cart-item">
+                    <img src="../Project/assets/products/sony1000xm4-1.png" alt="Sony 1000xm4" width="100" height="100">
+                    <div class="item-details">
+                        <p class="item-name">Sony 1000xm4 low latency Buds</p>
+                        <p class="item-price">₹8,999 <span class="old-price">₹12,999</span></p>
+                        <div class="quantity-controls">
+                            <button class="quantity-btn minus">-</button>
+                            <span class="quantity-value">1</span>
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button class="delete-item-btn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            </div>
+             <div class="order-summary-section">
+                <h4 class="summary-title">Order Summary (<span id="total-cart-items">4</span> items )</h4>
+                <div class="summary-row">
+                    <span>Original Price</span>
+                    <span id="original-price">₹20,997</span>
+                </div>
+                <div class="summary-row">
+                    <span>Discount</span>
+                    <span class="discount-value" id="discount-amount">- ₹8,400</span>
+                </div>
+                <div class="summary-row">
+                    <span>Delivery</span>
+                    <span class="delivery-status" id="delivery-charge">Free</span>
+                </div>
+                <div class="total-price-row">
+                    <span>Total Price</span>
+                    <span class="final-total" id="final-total-price">₹12,597</span>
+                </div>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-column">
+                <h3>Tech-Shop</h3>
+                <p>Subscribe to our Email alerts to receive early discount offers, and new products info.</p><br>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Email Address*" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-column">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Cancel Order</a></li>
+                    <li><a href="#">Return Order</a></li>
+                    <li><a href="#">Warranty Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Service Centres</li>
+                    <li>Careers</li>
+                    <li>Affiliates</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> 2025 Tech-Shop | All Rights Reserved | Built by Suryadev</p>
+            <div class="social-icons">
+                <a href="#" aria-label="fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="X" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Ins" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Ldn" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
