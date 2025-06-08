@@ -1,0 +1,394 @@
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+   
+
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.heading h2{
+    margin-left: 30px;
+}
+
+.navbar-icons{
+    display: flex;
+    gap: 60px;
+    margin-right: 50px;
+    font-size: large;
+    margin-top: 10px;
+}
+.hovering{
+    display: none;
+}
+.profile-card{
+    display: none;
+    z-index: 1000;
+    background-color: black;
+    
+}
+.fa-solid{
+  background-color: #111111;
+  color: #ccc;
+}
+
+.searchbar:hover .hovering{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    padding: 0px 10px;
+    border: 1px solid grey;
+}
+.cart:hover .hovering{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    padding: 0px 10px;
+    border: 1px solid grey;
+}
+.profile-icon:hover .profile-card{
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 250px;  
+    border: 1px solid gray;   
+}
+.profile-card button{
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width:180px ; 
+}
+.btn{
+  position: relative;
+  bottom: 0px;
+  right: 10px;
+}
+
+.profile-card{
+    padding-left: 20px;
+   padding-top: 10px;
+}
+
+.searchbar{
+    position: relative;
+}
+.cart{
+    position: relative;
+    bottom: 20px;
+}
+.profile-icon{
+    position: relative;
+}
+.number{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 15px;
+    top: 8px;
+    
+}
+.number p{
+    position: relative;
+    bottom: 5px;
+}
+
+ .smimage{
+     width: 400px;
+    height: 200px;
+ }
+ .smimage img{
+     width:150px;
+    height:150px;
+    position: relative;
+    left: 50px;
+ }
+.image1{
+    display: flex;
+}
+
+.cartbuttons{
+    display: flex;
+    width: fit-content;
+    border: 1px solid gray;
+    position: relative;
+    top: 30px;
+    
+}
+.btn1 button{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    width: 50px;
+    height: 40px;
+    font-size: large;
+    border: rgb(66, 65, 65) ;
+}
+.btn2 button{
+background-color: black;
+color: red;
+width: 60px;
+height: 40px;
+border:  rgb(66, 65, 65);
+font-size: x-large;
+font-weight: bolder;
+
+}
+
+.images{
+    width: 800px;
+    height: 600px;
+    border: 1px solid rgb(20, 20, 21);
+    background-color: rgb(20, 20, 20) ;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+    padding: 0px 20px;
+}
+.image1{
+    margin-top: 50px;
+}
+.details p{
+    font-size: larger;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    padding-right: 90px;
+    
+}
+.details ins{
+    font-size: xx-large;
+    text-decoration: none;
+    
+    position: relative;
+    right: 23px;
+}
+.details del{
+    font-weight: lighter;
+    font-size: large;
+}
+.details i{
+    font-size: large;
+    position: relative;
+    left: 380px;
+    bottom: 80px;
+}
+
+.cartbody{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    justify-content: space-around;
+
+
+}
+.ordersummary h2{
+    margin-bottom: 40px;
+
+}
+.ordersummary p{
+    font-size: large;
+    padding-bottom: 15px;
+}
+.ordersummary ins{
+    text-decoration: none;
+    font-size: larger;
+}
+.total h2{
+    margin-top: 20px;
+}
+.total ins{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 14px;
+
+}
+.discount ins{
+    color: green;
+    font-weight: bolder;
+}
+.delivery h5{
+    color: green;
+    font-weight: bolder;
+}
+.price{
+    display: flex;
+    justify-content:space-between;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+}
+.delivery{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.orderbtn button{
+    background-color: red;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: larger;
+    margin-top: 30px;
+}
+.orgup{
+    display: flex;
+}
+.lists{
+    display: flex;
+    margin-top: 50px;
+}
+.lis li{
+ list-style: none;
+ padding-bottom: 10px;
+ font-size: medium;
+ font-weight: lighter;
+}
+.lists h4{
+  position: relative;
+  left:30px;
+  bottom: 20px;
+}
+.up2{
+  padding-left: 200px;
+  display: flex;
+  justify-content: center;
+}
+.up1 p ,input[type],#subbtn{
+  position: relative;
+  bottom: 60px;
+}
+.up1 input[type]{
+  background-color: rgb(14, 14, 14);
+  border: 1px solid grey;
+  width: 300px;
+  height: 50px;
+
+}
+.up1 input[type="email"]{
+  font-size: larger;
+}
+.up1 button{
+    position: relative;
+    right: 305px;
+    padding-bottom: 0px;
+    top: 0px;
+    font-size: larger;
+    width: 130px;
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+#advantages{
+  margin-top: 240px;
+  padding-left: 730px ;
+}
+.footer {
+  background-color: #0d0d0d;
+  color: #ccc;
+  font-size: 0.9rem;
+  padding: 20px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+}
+.footer-column p{
+  padding-bottom: 40px;
+}
+
+.footer-column h3,
+.footer-column h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: white;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+
+.subscribe-form input {
+  padding: 8px;
+  border: 2px soild rgb(235, 224, 224);
+  border-radius: 4px;
+  background-color: #070707fb;
+ 
+}
+
+.subscribe-form button {
+  width: 100px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: darkred;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #333;
+  padding: 10px 20px;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
+.social-icons a:hover {
+  color: white;
+}
