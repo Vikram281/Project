@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.heading h2{
+    margin-left: 30px;
+    color: white;
+}
+
+.heading a {
+  text-decoration: none;
+}
+
+.navbar-icons{
+    display: flex;
+    gap: 60px;
+    margin-right: 50px;
+    font-size: large;
+    margin-top: 10px;
+}
+.hovering{
+    display: none;
+}
+.profile-card{
+    display: none;
+    z-index: 1000;
+    background-color: black;
+    
+}
+.searchbar:hover .hovering{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    padding: 0px 10px;
+    border: 1px solid grey;
+}
+.cart:hover .hovering{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    padding: 0px 10px;
+    border: 1px solid grey;
+}
+.profile-icon:hover .profile-card{
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 250px;  
+    border: 1px solid gray;   
+}
+.profile-card button{
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width:180px ; 
+}
+.btn{
+  position: relative;
+  bottom: 0px;
+}
+
+.profile-card{
+    padding-left: 20px;
+   padding-top: 10px;
+}
+
+.searchbar{
+    position: relative;
+}
+.cart{
+    position: relative;
+    bottom: 20px;
+}
+
+.fa-solid {
+ color:white;
+ background-color: black;
+}
+.profile-icon{
+    position: relative;
+}
+.number{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 15px;
+    top: 8px;
+    
+}
+.number p{
+    position: relative;
+    bottom: 5px;
+}
+
+ .smimage{
+     width: 400px;
+    height: 200px;
+ }
+ .smimage img{
+     width:150px;
+    height:150px;
+    position: relative;
+    left: 50px;
+ }
+.image1{
+    display: flex;
+}
+
+.cartbuttons{
+    display: flex;
+    width: fit-content;
+    border: 1px solid gray;
+    position: relative;
+    top: 30px;
+    
+}
+.header-actions i {
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.product-container {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+
+.thumbnail-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.thumb {
+  width: 60px;
+  height: 60px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.thumb.active {
+  border-color: white;
+}
+
+.product-main {
+  flex: 1;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #d4d4d4;
+}
+
+.subheading {
+  color: #a1a1a1;
+  font-size: 16px;
+}
+
+.rating .stars {
+  color: red;
+  margin-right: 5px;
+}
+
+.price-section {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.price {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  position: relative;
+  top: -15px;
+  left: 110px;
+  font-weight: bold;
+}
+
+.discount {
+  color: #0f5030;
+}
+
+.tax {
+  color: grey;
+  
+}
+
+
+#btn0 {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  background-color:rgb(2, 136, 2);
+  color: white;
+  left: 350px;
+  bottom: 70px;
+  border-radius: 5px;
+}
+
+#btn0:hover {
+  background-color: #00ff7f;
+}
+
+.offers h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.offer-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
