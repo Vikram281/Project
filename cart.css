@@ -365,7 +365,7 @@ font-weight: bolder;
   color: white;
   border: none;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -379,7 +379,7 @@ font-weight: bolder;
   align-items: center;
   flex-wrap: wrap;
   border-top: 1px solid #333;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 
 .social-icons a {
